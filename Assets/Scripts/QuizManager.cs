@@ -1,16 +1,21 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 
 public class QuizManager : MonoBehaviour
 {
+    public GameObject continuePanel;
+    private bool waitingForClick = false;
+    public GameObject quizPanel; 
     public GameObject feedbackPanel;
     public TextMeshProUGUI feedbackText;
-    public TextMeshProUGUI Text;     // The actual question text
-    public Image Painting1;              // The painting to display
-    public Button[] answerButtons;           // 4 answer buttons
-    public string correctAnswer;             // The correct answer to compare
+    public TextMeshProUGUI Text;     
+    public Image Painting1;              
+    public Button[] answerButtons;           
+    public string correctAnswer;             
 
     void Start()
     {
@@ -52,6 +57,8 @@ public class QuizManager : MonoBehaviour
     {
         Debug.Log("You clicked: " + selected);
 
+        quizPanel.SetActive(false);
+
         if (selected == correctAnswer)
         {
             Debug.Log("Correct answer!");
@@ -66,12 +73,37 @@ public class QuizManager : MonoBehaviour
         }
 
         feedbackPanel.SetActive(true);
+        waitingForClick = true;
+    }
+    void Update()
+    {
+        if (waitingForClick && Input.GetMouseButtonDown(0))
+        {
+            // Player clicked — now show Continue panel
+            feedbackPanel.SetActive(false);
+            continuePanel.SetActive(true);
+            waitingForClick = false;
+        }
     }
 
     public void HideFeedback()
     {
         feedbackPanel.SetActive(false);
+        // Show Continue Panel after feedback
+        continuePanel.SetActive(true);
+
     }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene("QuizScene2"); 
+    }
+
+    public void ReturnToMenuScene()
+    {
+        SceneManager.LoadScene("MenuScene");
+    }
+
 }
 
 
