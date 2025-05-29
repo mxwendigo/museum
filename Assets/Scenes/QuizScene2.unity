@@ -205,9 +205,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1351982846}
-        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
-        m_MethodName: LoadNextScene
+      - m_Target: {fileID: 1351982848}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
+        m_MethodName: ReturnToMenuScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 73583933}
   - component: {fileID: 73583932}
   m_Layer: 5
-  m_Name: QuizPanel
+  m_Name: QuizPanel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -497,14 +497,14 @@ RectTransform:
   m_GameObject: {fileID: 76935415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8997072, y: 0.73679507, z: 0.73679507}
+  m_LocalScale: {x: 0.5885563, y: 0.5349551, z: 0.48198497}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 795656151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -44, y: 1}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76935417
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: El Greco
+  m_text: " Medical Demonstration \nof Dr. Nicholas Tulp"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -590,7 +590,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -147.8637, w: -8.383563}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b2766f38f17890948921afe8836b481d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 19f5955efd8fc2a4b815e6c3cdf6b4d9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -736,7 +736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c46af48a66ed1404c9c8e3d710bd55a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 19b6f9ccd6289fc4ca458bd294937913, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -859,14 +859,14 @@ RectTransform:
   m_GameObject: {fileID: 639821345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9072049, y: 0.76376706, z: 0.76376706}
+  m_LocalScale: {x: 0.6442843, y: 0.5424167, z: 0.5424167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2140571154}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -43, y: -0.6}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639821347
@@ -889,7 +889,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rubens
+  m_text: "Anatomy Lesson\n of Dr. Nicolaes Tulp"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -952,7 +952,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -138.55797, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -994,7 +994,7 @@ RectTransform:
   m_GameObject: {fileID: 795656150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5705025, y: 3.5705025, z: 3.5705025}
+  m_LocalScale: {x: 4.0280747, y: 4.0280747, z: 4.0280747}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 76935416}
@@ -1002,7 +1002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346, y: -214}
+  m_AnchoredPosition: {x: 336, y: -214}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &795656152
@@ -1049,8 +1049,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1351982846}
-        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+      - m_Target: {fileID: 1351982848}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
         m_MethodName: CheckAnswer
         m_Mode: 5
         m_Arguments:
@@ -1058,7 +1058,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: El Greco
+          m_StringArgument: Medical Demonstration of Dr. Nicholas Tulp
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &795656153
@@ -1127,7 +1127,7 @@ RectTransform:
   m_GameObject: {fileID: 897989852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5705025, y: 3.5705025, z: 3.5705025}
+  m_LocalScale: {x: 4.0280747, y: 4.0280747, z: 4.0280747}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2120981263}
@@ -1182,8 +1182,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1351982846}
-        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+      - m_Target: {fileID: 1351982848}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
         m_MethodName: CheckAnswer
         m_Mode: 5
         m_Arguments:
@@ -1191,7 +1191,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Caravaggio
+          m_StringArgument: Surgical Lecture of Dr. Nikolas Tulip
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &897989855
@@ -1525,8 +1525,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1351982846}
-        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+      - m_Target: {fileID: 1351982848}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
         m_MethodName: ReturnToMenuScene
         m_Mode: 1
         m_Arguments:
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 1104976946}
   - component: {fileID: 1104976945}
   m_Layer: 5
-  m_Name: Text1
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1602,14 +1602,14 @@ RectTransform:
   m_GameObject: {fileID: 1104976943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2256918, y: 1.647654, z: 1.6986123}
+  m_LocalScale: {x: 1.9941244, y: 1.4762274, z: 1.5218838}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 73583931}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -450, y: 83}
+  m_AnchoredPosition: {x: -579, y: 89}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1104976945
@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1-Which of the following artists painted this famous work of art?
+  m_text: 2-What is the correct title of this famous Baroque painting made by Rembrandt?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1695,7 +1695,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -405.7353, w: -33.702324}
+  m_margin: {x: 0, y: 0, z: -558.85126, w: -39.815075}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1736,14 +1736,14 @@ RectTransform:
   m_GameObject: {fileID: 1251161132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8955426, y: 0.76823795, z: 0.76823795}
+  m_LocalScale: {x: 0.6316239, y: 0.5418363, z: 0.5418363}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1330212649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -19, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251161134
@@ -1766,7 +1766,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Velazquez
+  m_text: 'Dissection Study
+
+    of Dr. Nicolas Tulip'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1829,7 +1831,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -61.933777, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2073,7 +2075,7 @@ RectTransform:
   m_GameObject: {fileID: 1330212648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5705025, y: 3.5705025, z: 3.5705025}
+  m_LocalScale: {x: 4.0280747, y: 4.0280747, z: 4.0280747}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1251161133}
@@ -2081,7 +2083,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -367, y: -80}
+  m_AnchoredPosition: {x: -367, y: -60}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1330212650
@@ -2128,8 +2130,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1351982846}
-        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+      - m_Target: {fileID: 1351982848}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
         m_MethodName: CheckAnswer
         m_Mode: 5
         m_Arguments:
@@ -2137,7 +2139,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Velazquez
+          m_StringArgument: Dissection Study of Dr. Nicolas Tulip
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1330212651
@@ -2187,7 +2189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1351982847}
-  - component: {fileID: 1351982846}
+  - component: {fileID: 1351982848}
   m_Layer: 0
   m_Name: QuizManagerObj
   m_TagString: Untagged
@@ -2195,30 +2197,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1351982846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351982845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ee3d7d32a4698b4392f5c0fd63ca8de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  continuePanel: {fileID: 462061483}
-  quizPanel: {fileID: 73583930}
-  feedbackPanel: {fileID: 951563327}
-  feedbackText: {fileID: 1930373384}
-  Text: {fileID: 1104976945}
-  Painting1: {fileID: 0}
-  answerButtons:
-  - {fileID: 1330212650}
-  - {fileID: 2140571155}
-  - {fileID: 897989854}
-  - {fileID: 795656152}
-  correctAnswer: Caravaggio
 --- !u!4 &1351982847
 Transform:
   m_ObjectHideFlags: 0
@@ -2234,6 +2212,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351982848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351982845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7219da49808f7c747bb7d2d5ea563cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  continuePanel: {fileID: 462061483}
+  quizPanel: {fileID: 73583930}
+  feedbackPanel: {fileID: 951563327}
+  feedbackText: {fileID: 1930373384}
+  Text: {fileID: 1104976945}
+  Painting1: {fileID: 0}
+  answerButtons:
+  - {fileID: 1330212650}
+  - {fileID: 2140571155}
+  - {fileID: 897989854}
+  - {fileID: 795656152}
+  correctAnswer: Anatomy Lesson of Dr. Nicolaes Tulp
 --- !u!1 &1448924269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2686,14 +2688,14 @@ RectTransform:
   m_GameObject: {fileID: 2120981262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.82352585, y: 0.70639133, z: 0.70639133}
+  m_LocalScale: {x: 0.64828324, y: 0.5560745, z: 0.5560745}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 897989853}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -21, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2120981264
@@ -2716,7 +2718,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Caravaggio
+  m_text: 'Surgical Lecture
+
+    of Dr. Nikolas Tulip'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2779,7 +2783,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -58.402275, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2821,7 +2825,7 @@ RectTransform:
   m_GameObject: {fileID: 2140571153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5705025, y: 3.5705025, z: 3.5705025}
+  m_LocalScale: {x: 4.0280747, y: 4.0280747, z: 4.0280747}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 639821346}
@@ -2829,7 +2833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 336, y: -82}
+  m_AnchoredPosition: {x: 336, y: -62}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140571155
@@ -2876,8 +2880,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1351982846}
-        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+      - m_Target: {fileID: 1351982848}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
         m_MethodName: CheckAnswer
         m_Mode: 5
         m_Arguments:
@@ -2885,7 +2889,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Rubens
+          m_StringArgument: Anatomy Lesson of Dr. Nicolaes Tulp
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2140571156
